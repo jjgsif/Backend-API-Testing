@@ -9,6 +9,10 @@ const workout = new Schema({
     creator: {
         type: String, 
         required: true
+    },
+    exercises: {
+        type: Array,
+        required: true
     }
 
 }, {timestamps: true, autoIndex: true});
